@@ -1,0 +1,151 @@
+2025-12-13 19:04:16 - banking_agent - INFO - Initializing Banking Agent...
+2025-12-13 19:04:16 - banking_agent - INFO - Banking Agent initialized successfully
+2025-12-13 19:04:24 - banking_agent - INFO - Processing query: What's my balance in account 1?
+2025-12-13 19:04:24 - banking_agent - INFO - MCP Step 1: Intent Parsing
+2025-12-13 19:04:57 - banking_agent - INFO - Processing query: hi
+2025-12-13 19:04:57 - banking_agent - INFO - MCP Step 1: Intent Parsing
+2025-12-13 19:05:58 - banking_agent - INFO - Initializing Banking Agent...
+2025-12-13 19:05:59 - banking_agent - INFO - Banking Agent initialized successfully
+2025-12-13 19:06:12 - banking_agent - INFO - Processing query: what is my ablance in account 1
+2025-12-13 19:06:12 - banking_agent - INFO - MCP Step 1: Intent Parsing
+2025-12-13 19:06:13 - banking_agent - INFO - MCP Step 2: Planning
+2025-12-13 19:06:13 - banking_agent - INFO - MCP Step 3: Execution
+2025-12-13 19:06:13 - banking_agent - INFO - MCP Step 5: Response Generation
+2025-12-13 19:06:25 - banking_agent - INFO - Processing query: Transfer $500 from account 1 to account 2
+2025-12-13 19:06:25 - banking_agent - INFO - MCP Step 1: Intent Parsing
+2025-12-13 19:06:25 - banking_agent - INFO - MCP Step 2: Planning
+2025-12-13 19:06:26 - banking_agent - INFO - MCP Step 3: Execution
+2025-12-13 19:06:26 - banking_agent - INFO - MCP Step 4: Validation
+2025-12-13 19:06:26 - banking_agent - WARNING - Validation failed: Unknown tool: account_verification
+2025-12-13 19:06:26 - banking_agent - WARNING - Validation failed: Unknown tool: account_balance_check
+2025-12-13 19:06:26 - banking_agent - WARNING - Validation failed: Unknown tool: account_verification
+2025-12-13 19:06:26 - banking_agent - WARNING - Validation failed: Unknown tool: transfer_funds
+2025-12-13 19:06:26 - banking_agent - INFO - MCP Step 5: Response Generation
+2025-12-13 19:07:12 - banking_agent - INFO - Initializing Banking Agent...
+2025-12-13 19:07:13 - banking_agent - INFO - Banking Agent initialized successfully
+2025-12-13 19:07:15 - banking_agent - INFO - Setting up demo data...
+2025-12-13 19:07:15 - banking_agent - INFO - Demo setup complete. User ID: 1, Accounts: 1, 2
+2025-12-13 19:07:33 - banking_agent - INFO - Processing query: Show me recent transactions
+2025-12-13 19:07:33 - banking_agent - INFO - MCP Step 1: Intent Parsing
+2025-12-13 19:07:34 - banking_agent - INFO - MCP Step 2: Planning
+2025-12-13 19:07:34 - banking_agent - INFO - MCP Step 3: Execution
+2025-12-13 19:07:34 - banking_agent - ERROR - Error: 'NoneType' object has no attribute 'lower'
+2025-12-13 19:07:41 - banking_agent - INFO - Processing query: Transfer $500 from account 1 to account 2
+2025-12-13 19:07:41 - banking_agent - INFO - MCP Step 1: Intent Parsing
+2025-12-13 19:07:41 - banking_agent - INFO - MCP Step 2: Planning
+2025-12-13 19:07:41 - banking_agent - INFO - MCP Step 3: Execution
+2025-12-13 19:07:41 - banking_agent - INFO - MCP Step 4: Validation
+2025-12-13 19:07:41 - banking_agent - INFO - MCP Step 5: Response Generation
+2025-12-13 19:07:50 - banking_agent - INFO - Processing query: Can I afford to spend $6000?
+2025-12-13 19:07:50 - banking_agent - INFO - MCP Step 1: Intent Parsing
+2025-12-13 19:07:50 - banking_agent - INFO - MCP Step 2: Planning
+2025-12-13 19:07:51 - banking_agent - INFO - MCP Step 3: Execution
+2025-12-13 19:07:51 - banking_agent - ERROR - Error: 'NoneType' object has no attribute 'lower'
+2025-12-13 19:07:58 - banking_agent - INFO - Processing query: Give me spending insights
+2025-12-13 19:07:58 - banking_agent - INFO - MCP Step 1: Intent Parsing
+2025-12-13 19:07:58 - banking_agent - INFO - MCP Step 2: Planning
+2025-12-13 19:07:59 - banking_agent - INFO - MCP Step 3: Execution
+2025-12-13 19:07:59 - banking_agent - ERROR - Error: 'NoneType' object has no attribute 'lower'
+2025-12-13 19:08:04 - banking_agent - INFO - Processing query: What's my balance in account 1?
+2025-12-13 19:08:04 - banking_agent - INFO - MCP Step 1: Intent Parsing
+2025-12-13 19:08:04 - banking_agent - INFO - MCP Step 2: Planning
+2025-12-13 19:08:04 - banking_agent - INFO - MCP Step 3: Execution
+2025-12-13 19:08:04 - banking_agent - INFO - MCP Step 5: Response Generation
+2025-12-13 19:09:08 - banking_agent - INFO - Initializing Banking Agent...
+2025-12-13 19:09:08 - banking_agent - INFO - Banking Agent initialized successfully
+2025-12-13 19:09:12 - banking_agent - INFO - Setting up demo data...
+2025-12-13 19:09:12 - banking_agent - INFO - Demo setup complete. User ID: 2, Accounts: 3, 4
+2025-12-13 19:09:18 - banking_agent - INFO - Processing query: Give me spending insights
+2025-12-13 19:09:18 - banking_agent - INFO - MCP Step 1: Intent Parsing
+2025-12-13 19:09:18 - banking_agent - INFO - MCP Step 2: Planning
+2025-12-13 19:09:18 - banking_agent - INFO - MCP Step 3: Execution
+2025-12-13 19:09:18 - banking_agent - INFO - MCP Step 4: Validation
+2025-12-13 19:09:18 - banking_agent - WARNING - Validation failed: account_id required
+2025-12-13 19:09:18 - banking_agent - WARNING - Validation failed: unsupported type for timedelta days component: str
+2025-12-13 19:09:18 - banking_agent - INFO - MCP Step 5: Response Generation
+2025-12-13 19:09:29 - banking_agent - INFO - Processing query: Give me spending insights for account 1
+2025-12-13 19:09:29 - banking_agent - INFO - MCP Step 1: Intent Parsing
+2025-12-13 19:09:29 - banking_agent - INFO - MCP Step 2: Planning
+2025-12-13 19:09:29 - banking_agent - INFO - MCP Step 3: Execution
+2025-12-13 19:09:29 - banking_agent - INFO - MCP Step 5: Response Generation
+2025-12-13 19:09:39 - banking_agent - INFO - Processing query: Show me recent transactions
+2025-12-13 19:09:39 - banking_agent - INFO - MCP Step 1: Intent Parsing
+2025-12-13 19:09:39 - banking_agent - INFO - MCP Step 2: Planning
+2025-12-13 19:09:40 - banking_agent - INFO - MCP Step 3: Execution
+2025-12-13 19:09:40 - banking_agent - INFO - MCP Step 4: Validation
+2025-12-13 19:09:40 - banking_agent - WARNING - Validation failed: account_id required
+2025-12-13 19:09:40 - banking_agent - WARNING - Validation failed: datatype mismatch
+2025-12-13 19:09:40 - banking_agent - INFO - MCP Step 5: Response Generation
+2025-12-13 19:09:49 - banking_agent - INFO - Processing query: Can I afford to spend $6000?
+2025-12-13 19:09:49 - banking_agent - INFO - MCP Step 1: Intent Parsing
+2025-12-13 19:09:49 - banking_agent - INFO - MCP Step 2: Planning
+2025-12-13 19:09:50 - banking_agent - INFO - MCP Step 3: Execution
+2025-12-13 19:09:50 - banking_agent - INFO - MCP Step 4: Validation
+2025-12-13 19:09:50 - banking_agent - WARNING - Validation failed: Missing required parameters
+2025-12-13 19:09:50 - banking_agent - WARNING - Validation failed: unsupported operand type(s) for -: 'tuple' and 'int'
+2025-12-13 19:09:50 - banking_agent - WARNING - Validation failed: Missing required parameters
+2025-12-13 19:09:50 - banking_agent - WARNING - Validation failed: Source account provided_account_id not found
+2025-12-13 19:09:50 - banking_agent - INFO - MCP Step 5: Response Generation
+2025-12-13 19:10:00 - banking_agent - INFO - Processing query: Can I afford to spend $6000? from account 1
+2025-12-13 19:10:00 - banking_agent - INFO - MCP Step 1: Intent Parsing
+2025-12-13 19:10:00 - banking_agent - INFO - MCP Step 2: Planning
+2025-12-13 19:10:01 - banking_agent - INFO - MCP Step 3: Execution
+2025-12-13 19:10:01 - banking_agent - INFO - MCP Step 4: Validation
+2025-12-13 19:10:01 - banking_agent - WARNING - Validation failed: unsupported operand type(s) for -: 'tuple' and 'int'
+2025-12-13 19:10:01 - banking_agent - INFO - MCP Step 5: Response Generation
+2025-12-13 19:10:49 - banking_agent - INFO - Initializing Banking Agent...
+2025-12-13 19:10:49 - banking_agent - INFO - Banking Agent initialized successfully
+2025-12-13 19:10:57 - banking_agent - INFO - Processing query: recent transaction
+2025-12-13 19:10:57 - banking_agent - INFO - MCP Step 1: Intent Parsing
+2025-12-13 19:10:58 - banking_agent - INFO - MCP Step 2: Planning
+2025-12-13 19:10:58 - banking_agent - INFO - MCP Step 3: Execution
+2025-12-13 19:10:58 - banking_agent - INFO - MCP Step 4: Validation
+2025-12-13 19:10:58 - banking_agent - WARNING - Validation failed: account_id required
+2025-12-13 19:10:58 - banking_agent - INFO - MCP Step 5: Response Generation
+2025-12-13 19:11:13 - banking_agent - INFO - Processing query: spending insights if i have 10 days
+2025-12-13 19:11:13 - banking_agent - INFO - MCP Step 1: Intent Parsing
+2025-12-13 19:11:13 - banking_agent - INFO - MCP Step 2: Planning
+2025-12-13 19:11:14 - banking_agent - INFO - MCP Step 3: Execution
+2025-12-13 19:11:14 - banking_agent - INFO - MCP Step 4: Validation
+2025-12-13 19:11:14 - banking_agent - WARNING - Validation failed: Account user_account not found
+2025-12-13 19:11:14 - banking_agent - WARNING - Validation failed: unsupported type for timedelta days component: str
+2025-12-13 19:11:14 - banking_agent - INFO - MCP Step 5: Response Generation
+2025-12-13 19:11:24 - banking_agent - INFO - Setting up demo data...
+2025-12-13 19:11:24 - banking_agent - INFO - Demo setup complete. User ID: 3, Accounts: 5, 6
+2025-12-13 19:11:27 - banking_agent - INFO - Setting up demo data...
+2025-12-13 19:11:27 - banking_agent - INFO - Demo setup complete. User ID: 4, Accounts: 7, 8
+2025-12-13 19:11:41 - banking_agent - INFO - Processing query: spending insights if i have 10 days for account 7
+2025-12-13 19:11:41 - banking_agent - INFO - MCP Step 1: Intent Parsing
+2025-12-13 19:11:41 - banking_agent - INFO - MCP Step 2: Planning
+2025-12-13 19:11:42 - banking_agent - INFO - MCP Step 3: Execution
+2025-12-13 19:11:42 - banking_agent - INFO - MCP Step 5: Response Generation
+2025-12-13 19:14:37 - banking_agent - INFO - Initializing Banking Agent...
+2025-12-13 19:14:37 - banking_agent - INFO - Banking Agent initialized successfully
+2025-12-13 19:14:40 - banking_agent - INFO - Processing query: spending insights if i have 10 days for account 7
+2025-12-13 19:14:40 - banking_agent - INFO - MCP Step 1: Intent Parsing
+2025-12-13 19:14:41 - banking_agent - INFO - MCP Step 2: Planning
+2025-12-13 19:14:41 - banking_agent - INFO - MCP Step 3: Execution
+2025-12-13 19:14:41 - banking_agent - INFO - MCP Step 5: Response Generation
+2025-12-13 19:14:50 - banking_agent - INFO - Processing query: spending insights if i have 10 days for account 1
+2025-12-13 19:14:50 - banking_agent - INFO - MCP Step 1: Intent Parsing
+2025-12-13 19:14:50 - banking_agent - INFO - MCP Step 2: Planning
+2025-12-13 19:14:51 - banking_agent - INFO - MCP Step 3: Execution
+2025-12-13 19:14:51 - banking_agent - INFO - MCP Step 5: Response Generation
+2025-12-13 19:15:35 - banking_agent - INFO - Processing query: transaction of 2$ from acc 1 to acc 5
+2025-12-13 19:15:35 - banking_agent - INFO - MCP Step 1: Intent Parsing
+2025-12-13 19:15:35 - banking_agent - INFO - MCP Step 2: Planning
+2025-12-13 19:15:36 - banking_agent - INFO - MCP Step 3: Execution
+2025-12-13 19:15:36 - banking_agent - INFO - MCP Step 4: Validation
+2025-12-13 19:15:36 - banking_agent - INFO - MCP Step 5: Response Generation
+2025-12-13 19:15:55 - banking_agent - INFO - Processing query: transaction insights for last transactions in account 5
+2025-12-13 19:15:55 - banking_agent - INFO - MCP Step 1: Intent Parsing
+2025-12-13 19:15:56 - banking_agent - INFO - MCP Step 2: Planning
+2025-12-13 19:15:56 - banking_agent - INFO - MCP Step 3: Execution
+2025-12-13 19:15:56 - banking_agent - INFO - MCP Step 5: Response Generation
+2025-12-13 19:16:05 - banking_agent - INFO - Processing query: when was the last transaction done?
+2025-12-13 19:16:05 - banking_agent - INFO - MCP Step 1: Intent Parsing
+2025-12-13 19:16:05 - banking_agent - INFO - MCP Step 2: Planning
+2025-12-13 19:16:05 - banking_agent - INFO - MCP Step 3: Execution
+2025-12-13 19:16:05 - banking_agent - INFO - MCP Step 4: Validation
+2025-12-13 19:16:05 - banking_agent - WARNING - Validation failed: Account {account_id} not found
+2025-12-13 19:16:05 - banking_agent - INFO - MCP Step 5: Response Generation
